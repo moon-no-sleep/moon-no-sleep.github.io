@@ -3,7 +3,7 @@
   <channel>
     <title>我有一个月亮</title>
     <link>https://moon-no-sleep.github.io/</link>
-    <description>my blog</description>
+    <description>使用astro框架, 搭建我的blog</description>
     <language>en-us</language>
     <item>
       <title>.mdx 文件</title>
