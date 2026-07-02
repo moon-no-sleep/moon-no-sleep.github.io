@@ -7,11 +7,11 @@ const siteUrl = (
 export const SITE = {
   name: "我有一个月亮",
   description:
-    "my blog",
+    "使用astro框架, 搭建我的blog",
   url: siteUrl,
   locale: "en-US",
   language: "en",
-  repositoryUrl: "https://github.com/andreialba/quietpages",
+  repositoryUrl: "https://github.com/moon-no-sleep/moon-no-sleep.github.io",
 };
 
 export const NAVIGATION = [
@@ -44,7 +44,7 @@ export const FORMS = {
 
 export const SOCIAL_LINKS = [
   { href: "/rss.xml", label: "RSS feed", icon: "rss" },
-  { href: CONTACT.socialUrl, label: `${SITE.name} on X`, icon: "twitter" },
+  { href: CONTACT.socialUrl, label: `${SITE.name} on rednote`, icon: "rednote" },
   { href: SITE.repositoryUrl, label: `${SITE.name} on GitHub`, icon: "github" },
   { href: `mailto:${CONTACT.email}`, label: "Email", icon: "mail" },
 ];

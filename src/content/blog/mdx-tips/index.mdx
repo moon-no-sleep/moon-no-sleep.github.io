@@ -20,10 +20,16 @@ imageCredit:
 ## 文档特点
 
 1. 抬头
---- ---
+```
+--- 
+文字内容
+---
+```
 
-2. 短横杠
-`&mdash` : `-`
+2. 特殊字符
+- 短横杠, `&mdash` : `-`
+- mdx中需使用 \` \` 包裹`_`, 或者反斜杠\转义. 
+
 
 3. 支持 ```js ```
 ``` const words = (text) => text.trim().split(/\s+/).filter(Boolean).length; ```

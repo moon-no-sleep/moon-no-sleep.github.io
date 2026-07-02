@@ -17,12 +17,13 @@ imageCredit:
 
 如何搭建 github pages?  
 
-## 1.  带"_"前缀特殊文件夹处理
-编译后的文件夹名称, 带"_"前缀, 比如 `_astro` .  
-github pages 自带jekyll编译, 不解析带"_"的文件夹. 
+## 1.  带`_`前缀特殊文件夹处理
+编译后的文件夹名称, 带`_`前缀, 比如 `_astro` .  
+github pages 自带jekyll编译, 不解析带`_`的文件夹. 
 
--- 新增 .nojekyll 文件, 防止不解析带"_"的文件夹.  
-    ``` type nul > dist/.nojekyll ```
+-- 新增 .nojekyll 文件, 防止不解析带`_`的文件夹.  
+    ``` type nul > dist/.nojekyll ```  
+> mdx中需使用 \` \` 包裹`_`, 或者反斜杠\转义. 
 
 ## 2.  branch gh-pages 同步工具
 快速上传编译后的dist文件夹, 使用gh-pages工具. 
