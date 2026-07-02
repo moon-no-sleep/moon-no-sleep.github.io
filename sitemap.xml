@@ -21,50 +21,26 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/blog/the-quiet-craft-of-writing-on-the-web</loc>
-    <lastmod>2026-06-09</lastmod>
+    <loc>https://moon-no-sleep.github.io/blog/mdx-tips</loc>
+    <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/blog/in-praise-of-the-narrow-column</loc>
+    <loc>https://moon-no-sleep.github.io/blog/github-pages</loc>
+    <lastmod>2026-07-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://moon-no-sleep.github.io/blog/cloudflare-pages</loc>
+    <lastmod>2026-07-02</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://moon-no-sleep.github.io/blog/astro-theme</loc>
     <lastmod>2026-05-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://moon-no-sleep.github.io/blog/field-notes-from-a-small-harbour</loc>
-    <lastmod>2026-05-14</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://moon-no-sleep.github.io/blog/building-tools-that-disappear</loc>
-    <lastmod>2026-04-30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://moon-no-sleep.github.io/blog/a-conversation-with-a-bookbinder</loc>
-    <lastmod>2026-04-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://moon-no-sleep.github.io/blog/writing-against-the-algorithm</loc>
-    <lastmod>2026-03-28</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://moon-no-sleep.github.io/blog/the-grammar-of-good-buttons</loc>
-    <lastmod>2026-03-10</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://moon-no-sleep.github.io/blog/what-i-learned-from-a-year-of-walking</loc>
-    <lastmod>2026-02-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
