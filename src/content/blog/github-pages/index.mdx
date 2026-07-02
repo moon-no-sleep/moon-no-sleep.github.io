@@ -38,14 +38,19 @@ github pages 自带jekyll编译, 不解析带"_"的文件夹.
 ## 3.  git代理设置
 win11的git 不使用系统的代理, 需要设置git代理. 
 ```
-    git config --local http.proxy http://127.0.0.1:1080  
-    git config --local https.proxy http://127.0.0.1:1080  
+git config --local http.proxy http://127.0.0.1:1080  
+git config --local https.proxy http://127.0.0.1:1080  
 
-    git config --global http.proxy http://127.0.0.1:1080  
-    git config --global https.proxy http://127.0.0.1:1080  
+git config --global http.proxy http://127.0.0.1:1080  
+git config --global https.proxy http://127.0.0.1:1080  
 
-    git config --unset http.proxy  
-    git config --unset https.proxy
+git config --unset http.proxy  
+git config --unset https.proxy
+
+# 查看是否配置成功
+git config --global --get http.proxy
+git config --global --get https.proxy
+
 ```
 
 ### Closing
