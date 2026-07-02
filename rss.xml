@@ -6,6 +6,20 @@
     <description>使用astro框架, 搭建我的blog</description>
     <language>en-us</language>
     <item>
+      <title>业务: 承接各类网站搭建</title>
+      <link>https://moon-no-sleep.github.io/blog/service-website-building</link>
+      <guid isPermaLink="true">https://moon-no-sleep.github.io/blog/service-website-building</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+      <description>one-stop professional website building services</description>
+    </item>
+    <item>
+      <title>业务: 开源ERP系统部署和开发</title>
+      <link>https://moon-no-sleep.github.io/blog/service-erp-system</link>
+      <guid isPermaLink="true">https://moon-no-sleep.github.io/blog/service-erp-system</guid>
+      <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
+      <description>Custom secondary development, implementation &amp; deployment of open-source ERP systems — ERPNext and Odoo.</description>
+    </item>
+    <item>
       <title>.mdx 文件</title>
       <link>https://moon-no-sleep.github.io/blog/mdx-tips</link>
       <guid isPermaLink="true">https://moon-no-sleep.github.io/blog/mdx-tips</guid>
@@ -31,7 +45,6 @@
       <link>https://moon-no-sleep.github.io/blog/astro-theme</link>
       <guid isPermaLink="true">https://moon-no-sleep.github.io/blog/astro-theme</guid>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
-      <dc:creator>Samuel Okafor</dc:creator>
       <description>astro theme free</description>
     </item>
   </channel>
