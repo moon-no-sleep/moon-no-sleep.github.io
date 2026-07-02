@@ -5,7 +5,7 @@ const siteUrl = (
 ).replace(/\/$/, "");
 
 export const SITE = {
-  name: "Quiet Pages",
+  name: "My Blog",
   description:
     "my blog",
   url: siteUrl,
