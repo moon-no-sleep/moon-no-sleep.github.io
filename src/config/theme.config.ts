@@ -23,8 +23,10 @@ export const NAVIGATION = [
 
 export const CONTACT = {
   email: "2417789183@qq.com",
-  socialHandle: "@zhang_carton",
+  socialHandle: "我有一个月亮",
   socialUrl: "https://www.xiaohongshu.com/user/profile/5c6df8ed0000000011028041",
+  wechat: "zhang_carton",
+  
 };
 
 export const FORMS = {
