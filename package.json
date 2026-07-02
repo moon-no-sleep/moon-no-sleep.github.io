@@ -7,9 +7,10 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/prune-unused-assets.mjs",
+    "build": "astro build && node scripts/prune-unused-assets.mjs && type nul > dist/.nojekyll",
     "preview": "astro preview",
-    "format": "prettier --write ."
+    "format": "prettier --write .",
+    "deploy": "gh-pages -d dist --dotfiles"
   },
   "dependencies": {
     "@astrojs/mdx": "^7.0.0",
@@ -18,6 +19,7 @@
     "tailwindcss": "^4.3.1"
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "prettier": "^3.8.4",
     "vite": "^8.1.2"
   }

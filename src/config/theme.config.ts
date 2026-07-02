@@ -1,13 +1,13 @@
 const siteUrl = (
   import.meta.env.SITE_URL ||
   import.meta.env.PUBLIC_SITE_URL ||
-  "https://quietpages-eta.vercel.app"
+  "https://moon-no-sleep.github.io"
 ).replace(/\/$/, "");
 
 export const SITE = {
   name: "Quiet Pages",
   description:
-    "An independent magazine on writing, design, and the slow web. Published occasionally, read closely.",
+    "my blog",
   url: siteUrl,
   locale: "en-US",
   language: "en",
@@ -22,9 +22,9 @@ export const NAVIGATION = [
 ];
 
 export const CONTACT = {
-  email: "hello@example.com",
-  socialHandle: "@quietpages",
-  socialUrl: "https://x.com/quietpages",
+  email: "2417789183@qq.com",
+  socialHandle: "@zhang_carton",
+  socialUrl: "https://www.xiaohongshu.com/user/profile/5c6df8ed0000000011028041",
 };
 
 export const FORMS = {

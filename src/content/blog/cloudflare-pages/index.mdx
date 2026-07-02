@@ -1,0 +1,44 @@
+---
+title: "cloudflare pages"
+excerpt: "又是一个坑."
+date: 2026-07-02
+category: "field-notes"
+tags: ["pages", "writing"]
+author: "moon-no-sleep"
+thumbnail: ./cover.jpg
+thumbnailAlt: "Fishing boats gathered in a harbour at sunrise."
+imageCredit:
+  caption: "Fishing boats gathered in a harbour at sunrise."
+  author: "Philippe BONTEMPS"
+  authorUrl: "https://unsplash.com/@philippeb?utm_source=quiet_pages&utm_medium=referral"
+  source: "Unsplash"
+  sourceUrl: "https://unsplash.com/photos/j9sWBE4jeWQ?utm_source=quiet_pages&utm_medium=referral"
+---
+
+
+如何创建一个 cloudflare pages? 
+
+## The quiet shape of an idea
+
+cloudflare pages的默认界面是workers, 注意下面的pages引导, 创建pages.  
+
+> 使用workers创建连续build失败, 优先创建pages.  
+
+### 出现的一些警告和错误
+- You need to register a workers.dev subdomain before publishing to workers.dev
+- A request to the Cloudflare API (/accounts/c88012af994332391c40b149a9c3e3f8/pages/projects/moon-no-sleep) failed. It looks like you are authenticating Wrangler via a custom API token set in an environment variable. Please ensure it has the correct permissions for this operation.
+- Project not found. The specified project name does not match any of your existing projects. [code: 8000007]
+
+## Deploy command
+
+``` npx wrangler pages deploy . --project-name=moon-no-sleep ```
+
+## 设置变量 CLOUDFLARE_API_TOKEN
+1. 在个人profile中创建一个workers build相关的token. 
+2. 在pages的setting中创建并设置变量 CLOUDFLARE_API_TOKEN. 
+
+
+### Closing
+
+https://moon-no-sleep.github.io/  
+End!  

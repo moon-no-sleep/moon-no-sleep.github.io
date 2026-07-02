@@ -1,0 +1,55 @@
+---
+title: "使用astro搭建github pages"
+excerpt: "踩坑笔记"
+date: 2026-07-02
+category: "website"
+tags: ["framework", "astro", "pages"]
+author: "moon-no-sleep"
+thumbnail: ./cover.jpg
+thumbnailAlt: "moon-no-sleep"
+imageCredit:
+  caption: "Bookbinding tools arranged on a warm work surface."
+  author: "Dane Deaner"
+  authorUrl: "https://unsplash.com/@danedeaner?utm_source=quiet_pages&utm_medium=referral"
+  source: "Unsplash"
+  sourceUrl: "https://unsplash.com/photos/JNpmCYZID68?utm_source=quiet_pages&utm_medium=referral"
+---
+
+如何搭建 github pages?  
+
+## 1.  带"_"前缀特殊文件夹处理
+编译后的文件夹名称, 带"_"前缀, 比如 `_astro` .  
+github pages 自带jekyll编译, 不解析带"_"的文件夹. 
+
+-- 新增 .nojekyll 文件, 防止不解析带"_"的文件夹.  
+    ``` type nul > dist/.nojekyll ```
+
+## 2.  branch gh-pages 同步工具
+快速上传编译后的dist文件夹, 使用gh-pages工具. 
+
+1. 安装
+``` npm install gh-pages ```
+
+2. 使用
+配置package.json, 增加 deploy 脚本  
+```  "deploy": "gh-pages -d dist --dotfiles" ```  
+> 因为需要上传.开头的文件, 命令中需要 --dotfiles
+
+## 3.  git代理设置
+win11的git 不使用系统的代理, 需要设置git代理. 
+```
+    git config --local http.proxy http://127.0.0.1:1080  
+    git config --local https.proxy http://127.0.0.1:1080  
+
+    git config --global http.proxy http://127.0.0.1:1080  
+    git config --global https.proxy http://127.0.0.1:1080  
+
+    git config --unset http.proxy  
+    git config --unset https.proxy
+```
+
+### Closing
+
+https://moon-no-sleep.pages.dev/  
+
+End!  
