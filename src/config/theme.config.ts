@@ -5,7 +5,7 @@ const siteUrl = (
 ).replace(/\/$/, "");
 
 export const SITE = {
-  name: "My Blog",
+  name: "我有一个月亮",
   description:
     "my blog",
   url: siteUrl,
