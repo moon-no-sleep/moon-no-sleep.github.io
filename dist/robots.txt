@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://quietpages-eta.vercel.app/sitemap.xml
