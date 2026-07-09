@@ -2,10 +2,10 @@
 title: "使用astro搭建github pages"
 excerpt: "踩坑笔记"
 date: 2026-07-02
-category: "website"
+category: "field-notes"
 tags: ["framework", "astro", "pages"]
 author: "moon-no-sleep"
-thumbnail: ./cover.jpg
+thumbnail: ./cover.png
 thumbnailAlt: "moon-no-sleep"
 imageCredit:
   caption: "Bookbinding tools arranged on a warm work surface."
@@ -48,12 +48,28 @@ git config --global https.proxy http://127.0.0.1:1080
 git config --unset http.proxy  
 git config --unset https.proxy
 
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+
 # 查看是否配置成功
 git config --global --get http.proxy
 git config --global --get https.proxy
 
 # git上传  
 git push
+```
+
+## 4. npm代理设置
+```
+set HTTP_PROXY=http://127.0.0.1:1080
+set HTTPS_PROXY=http://127.0.0.1:1080
+```
+
+## 编译流程
+```
+1. npm run build
+2. npm run deploy
+
 ```
 
 ### Closing
