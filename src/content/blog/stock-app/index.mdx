@@ -1,5 +1,5 @@
 ---
-title: "stock app"
+title: "股票app Demo"
 excerpt: "股票软件Demo"
 date: 2026-07-10
 category: "design"
@@ -13,6 +13,7 @@ imageCredit:
   authorUrl: "https://moon-no-sleep.pages.dev"
   source: "Unsplash"
   sourceUrl: "https://moon-no-sleep.pages.dev"
+electronDemo: ./electron-demo.png
 ---
 
 日前做的一个股票行情app的Demo. 
@@ -23,12 +24,17 @@ imageCredit:
 
 代码整体框架由AI生成, 细节调整下, 就做出来了. 
 
+
+import { Image } from 'astro:assets'
+// 关键：先导入图片资源
+import imgPython from './cover.png'
+import imgElectron from './electron-demo.png'
+
 ## python-Demo
-![python-demo](./cover.png)
+<Image src={imgPython} alt="python-demo" />
 
 ## electron-Demo
-![electron-demo](./electron-Demo.png)
-
+<Image src={imgElectron} alt="electron-demo" />
 
 ## 经验
 
