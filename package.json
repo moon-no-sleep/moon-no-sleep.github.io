@@ -7,7 +7,7 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build && node scripts/prune-unused-assets.mjs && type nul > dist/.nojekyll",
+    "build": "astro build && node scripts/prune-unused-assets.mjs",
     "preview": "astro preview",
     "format": "prettier --write .",
     "deploy": "gh-pages -d dist --dotfiles"
