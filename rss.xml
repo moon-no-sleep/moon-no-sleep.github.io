@@ -2,48 +2,55 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>我有一个月亮</title>
-    <link>https://moon-no-sleep.github.io/</link>
+    <link>https://moon-no-sleep.pages.dev/</link>
     <description>使用astro框架, 搭建我的blog</description>
     <language>en-us</language>
     <item>
+      <title>stock app</title>
+      <link>https://moon-no-sleep.pages.dev/blog/stock-app</link>
+      <guid isPermaLink="true">https://moon-no-sleep.pages.dev/blog/stock-app</guid>
+      <pubDate>Fri, 10 Jul 2026 00:00:00 GMT</pubDate>
+      <description>股票软件Demo</description>
+    </item>
+    <item>
       <title>业务: 承接各类网站搭建</title>
-      <link>https://moon-no-sleep.github.io/blog/service-website-building</link>
-      <guid isPermaLink="true">https://moon-no-sleep.github.io/blog/service-website-building</guid>
+      <link>https://moon-no-sleep.pages.dev/blog/service-website-building</link>
+      <guid isPermaLink="true">https://moon-no-sleep.pages.dev/blog/service-website-building</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
       <description>one-stop professional website building services</description>
     </item>
     <item>
       <title>业务: 开源ERP系统部署和开发</title>
-      <link>https://moon-no-sleep.github.io/blog/service-erp-system</link>
-      <guid isPermaLink="true">https://moon-no-sleep.github.io/blog/service-erp-system</guid>
+      <link>https://moon-no-sleep.pages.dev/blog/service-erp-system</link>
+      <guid isPermaLink="true">https://moon-no-sleep.pages.dev/blog/service-erp-system</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
       <description>Custom secondary development, implementation &amp; deployment of open-source ERP systems — ERPNext and Odoo.</description>
     </item>
     <item>
       <title>.mdx 文件</title>
-      <link>https://moon-no-sleep.github.io/blog/mdx-tips</link>
-      <guid isPermaLink="true">https://moon-no-sleep.github.io/blog/mdx-tips</guid>
+      <link>https://moon-no-sleep.pages.dev/blog/mdx-tips</link>
+      <guid isPermaLink="true">https://moon-no-sleep.pages.dev/blog/mdx-tips</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
       <description>mdx 格式.</description>
     </item>
     <item>
       <title>使用astro搭建github pages</title>
-      <link>https://moon-no-sleep.github.io/blog/github-pages</link>
-      <guid isPermaLink="true">https://moon-no-sleep.github.io/blog/github-pages</guid>
+      <link>https://moon-no-sleep.pages.dev/blog/github-pages</link>
+      <guid isPermaLink="true">https://moon-no-sleep.pages.dev/blog/github-pages</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
       <description>踩坑笔记</description>
     </item>
     <item>
       <title>cloudflare pages</title>
-      <link>https://moon-no-sleep.github.io/blog/cloudflare-pages</link>
-      <guid isPermaLink="true">https://moon-no-sleep.github.io/blog/cloudflare-pages</guid>
+      <link>https://moon-no-sleep.pages.dev/blog/cloudflare-pages</link>
+      <guid isPermaLink="true">https://moon-no-sleep.pages.dev/blog/cloudflare-pages</guid>
       <pubDate>Thu, 02 Jul 2026 00:00:00 GMT</pubDate>
       <description>又是一个踩坑.</description>
     </item>
     <item>
       <title>astro theme</title>
-      <link>https://moon-no-sleep.github.io/blog/astro-theme</link>
-      <guid isPermaLink="true">https://moon-no-sleep.github.io/blog/astro-theme</guid>
+      <link>https://moon-no-sleep.pages.dev/blog/astro-theme</link>
+      <guid isPermaLink="true">https://moon-no-sleep.pages.dev/blog/astro-theme</guid>
       <pubDate>Fri, 22 May 2026 00:00:00 GMT</pubDate>
       <description>astro theme free</description>
     </item>

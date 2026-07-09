@@ -1,138 +1,144 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://moon-no-sleep.github.io/</loc>
+    <loc>https://moon-no-sleep.pages.dev/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/blog</loc>
+    <loc>https://moon-no-sleep.pages.dev/blog</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/about</loc>
+    <loc>https://moon-no-sleep.pages.dev/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/contact</loc>
+    <loc>https://moon-no-sleep.pages.dev/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/blog/service-website-building</loc>
+    <loc>https://moon-no-sleep.pages.dev/blog/stock-app</loc>
+    <lastmod>2026-07-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://moon-no-sleep.pages.dev/blog/service-website-building</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/blog/service-erp-system</loc>
+    <loc>https://moon-no-sleep.pages.dev/blog/service-erp-system</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/blog/mdx-tips</loc>
+    <loc>https://moon-no-sleep.pages.dev/blog/mdx-tips</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/blog/github-pages</loc>
+    <loc>https://moon-no-sleep.pages.dev/blog/github-pages</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/blog/cloudflare-pages</loc>
+    <loc>https://moon-no-sleep.pages.dev/blog/cloudflare-pages</loc>
     <lastmod>2026-07-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/blog/astro-theme</loc>
+    <loc>https://moon-no-sleep.pages.dev/blog/astro-theme</loc>
     <lastmod>2026-05-22</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/categories/essays</loc>
+    <loc>https://moon-no-sleep.pages.dev/categories/essays</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/categories/design</loc>
+    <loc>https://moon-no-sleep.pages.dev/categories/design</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/categories/engineering</loc>
+    <loc>https://moon-no-sleep.pages.dev/categories/engineering</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/categories/field-notes</loc>
+    <loc>https://moon-no-sleep.pages.dev/categories/field-notes</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/categories/interviews</loc>
+    <loc>https://moon-no-sleep.pages.dev/categories/interviews</loc>
     <changefreq>weekly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/tags/writing</loc>
+    <loc>https://moon-no-sleep.pages.dev/tags/writing</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/tags/typography</loc>
+    <loc>https://moon-no-sleep.pages.dev/tags/typography</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/tags/minimalism</loc>
+    <loc>https://moon-no-sleep.pages.dev/tags/minimalism</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/tags/tools</loc>
+    <loc>https://moon-no-sleep.pages.dev/tags/tools</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/tags/travel</loc>
+    <loc>https://moon-no-sleep.pages.dev/tags/travel</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/tags/process</loc>
+    <loc>https://moon-no-sleep.pages.dev/tags/process</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/tags/web</loc>
+    <loc>https://moon-no-sleep.pages.dev/tags/web</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/tags/books</loc>
+    <loc>https://moon-no-sleep.pages.dev/tags/books</loc>
     <changefreq>weekly</changefreq>
     <priority>0.4</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/authors/elena-march</loc>
+    <loc>https://moon-no-sleep.pages.dev/authors/elena-march</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/authors/samuel-okafor</loc>
+    <loc>https://moon-no-sleep.pages.dev/authors/samuel-okafor</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://moon-no-sleep.github.io/authors/mira-iwasaki</loc>
+    <loc>https://moon-no-sleep.pages.dev/authors/mira-iwasaki</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>

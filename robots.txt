@@ -1,3 +1,3 @@
 User-agent: *
 Allow: /
-Sitemap: https://moon-no-sleep.github.io/sitemap.xml
+Sitemap: https://moon-no-sleep.pages.dev/sitemap.xml
