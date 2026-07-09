@@ -11,16 +11,16 @@ export default defineConfig({
   vite: {
     plugins: [tailwindcss()],
   },
-  i18n: {
-    // 支持语言
-    locales: ["en", "zh-cn"],
-    // 默认语言
-    defaultLocale: "en",
-    routing: {
-      // 默认语言URL不加 /en/
-      prefixDefaultLocale: false,
-      // 自动根据浏览器语言跳转
-      redirectToDefaultLocale: false,
-    },
-  },
+  // i18n: {
+  //   // 支持语言
+  //   locales: ["en", "zh-cn"],
+  //   // 默认语言
+  //   defaultLocale: "en",
+  //   routing: {
+  //     // 默认语言URL不加 /en/
+  //     prefixDefaultLocale: false,
+  //     // 自动根据浏览器语言跳转
+  //     redirectToDefaultLocale: false,
+  //   },
+  // },
 });
